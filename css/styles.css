@@ -1,5 +1,6 @@
 #header{
   background-image: url(../img/backgrounds/landing.jpg);
+  height: 636px;
 }
 .happyhour{
   height: 105px;
@@ -26,7 +27,7 @@
 }
 #fastfood{
   background-image: url(../img/backgrounds/foodsBg.jpg);
-  height:210px;
+  height: 599px;
 }
 #fast{
   text-align: left;
