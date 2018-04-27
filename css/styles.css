@@ -1,8 +1,13 @@
 #header{
   background-image: url(../img/backgrounds/landing.jpg);
-  background-size:cover;
-
 }
+.happyhour{
+  height: 105px;
+}
+.partytime{
+  height: 105px;
+}
+
 
 #breakfast{
   background-image: url(../img/foodtop/breakfast.jpg);
