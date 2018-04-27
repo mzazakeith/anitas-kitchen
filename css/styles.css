@@ -54,4 +54,15 @@
 #sub{
   background-image: url(../img/backgrounds/subscribe.jpg);
   height: 301px;
+  text-align: center;
+}
+#foot{
+  background-color:#F15A29;
+  text-align: center;
+}
+#smalllog{
+  text-align:right;
+}
+#men{
+  text-align: left;
 }
