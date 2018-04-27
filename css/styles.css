@@ -1,7 +1,10 @@
 #header{
   background-image: url(../img/backgrounds/landing.jpg);
   height: 636px;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
+
 .happyhour{
   height: 105px;
 
