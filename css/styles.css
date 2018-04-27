@@ -48,3 +48,10 @@
 #nav{
   width: 1150px;
 }
+#cus{
+  text-align: center;
+}
+#sub{
+  background-image: url(../img/backgrounds/subscribe.jpg);
+  height: 301px;
+}
