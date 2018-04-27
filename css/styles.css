@@ -28,6 +28,9 @@
   background-image: url(../img/backgrounds/foodsBg.jpg);
   height:210px;
 }
+#fast{
+  text-align: left;
+}
 
 #drink{
   text-align: right;
