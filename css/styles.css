@@ -39,3 +39,12 @@
 #drink{
   text-align: right;
 }
+.inactive{
+  background-color: rgb(228, 228, 228);
+}
+.light{
+  background-color: rgb(255, 255, 255);
+}
+#nav{
+  width: 1150px;
+}
