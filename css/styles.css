@@ -55,14 +55,31 @@
   background-image: url(../img/backgrounds/subscribe.jpg);
   height: 301px;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 #foot{
   background-color:#F15A29;
   text-align: center;
+  height: 310px;
+  color: rgb(255, 255, 255);
 }
-#smalllog{
-  text-align:right;
+#footertop{
+  padding-top: 20px;
 }
 #men{
   text-align: left;
+}
+#subinput{
+ background-color: rgba(176, 174, 174, 0.35);
+ border: none;
+outline: none;
+height:40px;
+width:350px;
+}
+#subbutton{
+  color: rgb(255, 255, 255);
+  background-color: #F15A29;
+  height:40px;
+  width:150px;
+
 }
