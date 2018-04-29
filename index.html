@@ -1,247 +1,250 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118256810-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118256810-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-118256810-1');
-</script>
-<!-- End of google analytics-->
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/bootsrap.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Anita's Kitchen</title>
-</head>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<body>
+      gtag('config', 'UA-118256810-1');
+    </script>
+    <!-- End of google analytics-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/bootsrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Anita's Kitchen</title>
+  </head>
 
-  <div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<a href="#">Contact</a>
-<a href="#">Events</a>
-<a href="#">Menus</a>
-</div>
-  <div class="row" id="header">
-    <div class="col-md-1">
-      <span onclick="openNav()">
-      <i class="glyphicon glyphicon-menu-hamburger ham"></i>
-      </span>
+  <body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Contact</a>
+      <a href="#">Events</a>
+      <a href="#">Menus</a>
+    </div>
+    <div class="row" id="header">
+      <div class="col-md-1">
+        <span onclick="openNav()">
+        <i class="glyphicon glyphicon-menu-hamburger ham"></i>
+        </span>
+      </div>
+
+      <div class="col-md-10">
+        <img src="img/logoBig.png" alt="Menu" id="lower" />
+        <h2>We Provide The Best Food</h2>
+        <h2>At The <strong>Right Price</strong></h2>
+      </div>
+      <div class="col-md-1">
+      </div>
     </div>
 
-    <div class="col-md-10">
-      <img src="img/logoBig.png" alt="Menu" id="lower" />
-      <h2>We Provide The Best Food</h2>
-      <h2>At The <strong>Right Price</strong></h2>
-    </div>
-    <div class="col-md-1">
-    </div>
-  </div>
+    <div class="row" id="foodtop">
+      <div class="col-md-3" id="no">
+        <h3 class="happyhour">Happy Hour</h3>
+        <h3 class="partytime">Party Time</h3>
+      </div>
 
-  <div class="row" id="foodtop">
-    <div class="col-md-3" id="no">
-      <h3 class="happyhour">Happy Hour</h3>
-      <h3 class="partytime">Party Time</h3>
-    </div>
-
-    <div class="col-md-3" id="breakfast">
-      <h3 class="cen">Breakfast</h3>
-      <div class="layer1">
-    </div>
-    </div>
-
-    <div class="col-md-3" id="lunch">
-      <h3 class="cen">Lunch</h3>
-      <div class="layer">
-    </div>
-    </div>
-
-    <div class="col-md-3" id="dinner">
-      <h3 class="cen">Dinner</h3>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="well">
-          <img src="img/fastFood1.jpg" alt="#" />
-          <img src="img/fastFood2.jpg" alt="" />
+      <div class="col-md-3" id="breakfast">
+        <h3 class="cen">Breakfast</h3>
+        <div class="layer1">
         </div>
       </div>
 
-      <div class="col-md-6" id="fast">
-        <h2>Fast Food</h2>
-        <h4>You'll love our delicious fast food</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p> Suspendisse dictum nisi eget placerat imperdiet.</p>
-        <p> Maecenas eu orci maximus, lobortis eros a, cursus elit.</p>
-        <p> Morbi convallis sagittis arcu finibus fermentum.</p>
-        <p>Suspendisse vel nisi quis ipsum tincidunt dignissim a at metus.</p>
-        <p> Donec sit amet ex in elit congue sollicitudin ut non nunc.</p>
-        <p>Phasellus eu maximus erat, non consequat sapien.</p>
-        <p>Donec tincidunt nisi eget libero finibus varius.</p>
-        <button class="btn" id="view2">VIEW GALLERY<i class="glyphicon glyphicon-arrow-right"></i></button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6" id="drink">
-        <h2>Drinks</h2>
-        <h4>We also produce delicious drinks</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p> Suspendisse dictum nisi eget placerat imperdiet.</p>
-        <p> Maecenas eu orci maximus, lobortis eros a, cursus elit.</p>
-        <p> Morbi convallis sagittis arcu finibus fermentum.</p>
-        <p> Suspendisse vel nisi quis ipsum tincidunt dignissim a at metus.</p>
-        <p> Donec sit amet ex in elit congue sollicitudin ut non nunc.</p>
-        <p>Phasellus eu maximus erat, non consequat sapien.</p>
-        <p> Donec tincidunt nisi eget libero finibus varius.</p>
-        <button class="btn" id="view1">VIEW GALLERY <i class="glyphicon glyphicon-arrow-right"></i></button>
-      </div>
-
-      <div class="col-md-6">
-        <div class="well">
-          <img src="img/drink1.jpg" alt="#" />
-          <img src="img/drink2.jpg" alt="#" />
+      <div class="col-md-3" id="lunch">
+        <h3 class="cen">Lunch</h3>
+        <div class="layer">
         </div>
       </div>
+
+      <div class="col-md-3" id="dinner">
+        <h3 class="cen">Dinner</h3>
+      </div>
     </div>
-  </div>
-  <div class="row" id="fastfood">
+
     <div class="container">
-
-
-      <ul class="nav nav-tabs nav-justified" id="nav">
-        <li role="presentation" class="active"><a href="#"><span class="act">Fast Food</span></a></li>
-        <li role="presentation" class="inactive"><a href="#"><span class="inact">Drinks</span></a></li>
-        <li role="presentation" class="inactive"><a href="#"><span class="inact">Chicken</span></a></li>
-        <li role="presentation" class="inactive"><a href="#"><span class="inact">Rice</span></a></li>
-      </ul>
-
-      <div class="row light">
-        <div class="col-md-1">
-          <i class="glyphicon glyphicon-chevron-left colour"></i>
-        </div>
-        <div class="col-md-3">
-          <img class="move" src="img/fastfood/chickenBurger.jpg" alt="#" />
-          <p><strong>Chicken Burger</strong></p>
-        </div>
-        <div class="col-md-3">
-          <img src="img/fastfood/beefBurger.jpg" class="fast2" alt="#" />
-          <p class="fast2"><strong>Beef Burger</strong></p>
-        </div>
-        <div class="col-md-3">
-          <img src="img/fastfood/chickenPizza.jpg" class="fast1" alt="#" />
-          <p class="fast1"><strong>Chicken Pizza</strong></p>
-        </div>
-        <div class="col-md-1">
-          <i class="glyphicon glyphicon-chevron-right colour" id="mov"></i>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <img src="img/fastFood1.jpg" alt="#" />
+            <img src="img/fastFood2.jpg" alt="" />
+          </div>
         </div>
 
+        <div class="col-md-6" id="fast">
+          <h2>Fast Food</h2>
+          <h4>You'll love our delicious fast food</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p> Suspendisse dictum nisi eget placerat imperdiet.</p>
+          <p> Maecenas eu orci maximus, lobortis eros a, cursus elit.</p>
+          <p> Morbi convallis sagittis arcu finibus fermentum.</p>
+          <p>Suspendisse vel nisi quis ipsum tincidunt dignissim a at metus.</p>
+          <p> Donec sit amet ex in elit congue sollicitudin ut non nunc.</p>
+          <p>Phasellus eu maximus erat, non consequat sapien.</p>
+          <p>Donec tincidunt nisi eget libero finibus varius.</p>
+          <button class="btn" id="view2">VIEW GALLERY<i class="glyphicon glyphicon-arrow-right"></i></button>
+        </div>
       </div>
 
-    </div>
-  </div>
-  <div class="container" id="outer">
-    <div class="well" id="cus">
-      <div class="customers">
-        <div class="row">
-          <div class="col-md-6">
-            <h4 class="act">Our Happy Customer</h4>
-            <h5>George Richard</h5>
-            <p>Great food! Menu is awesome,there foods are not only great but</p>
-            <p>also in the right price.I'll highly recommend them :)</p>
+      <div class="row">
+        <div class="col-md-6" id="drink">
+          <h2>Drinks</h2>
+          <h4>We also produce delicious drinks</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p> Suspendisse dictum nisi eget placerat imperdiet.</p>
+          <p> Maecenas eu orci maximus, lobortis eros a, cursus elit.</p>
+          <p> Morbi convallis sagittis arcu finibus fermentum.</p>
+          <p> Suspendisse vel nisi quis ipsum tincidunt dignissim a at metus.</p>
+          <p> Donec sit amet ex in elit congue sollicitudin ut non nunc.</p>
+          <p>Phasellus eu maximus erat, non consequat sapien.</p>
+          <p> Donec tincidunt nisi eget libero finibus varius.</p>
+          <button class="btn" id="view1">VIEW GALLERY <i class="glyphicon glyphicon-arrow-right"></i></button>
+        </div>
 
-            <i class="glyphicon glyphicon-chevron-left customer"></i>
-            <img src="img/customers/p1.png" alt="Customer one" />
-            <img src="img/customers/p2.png" alt="George Richard" />
-            <img src="img/customers/p3.png" alt="Customer 3" />
-            <i class="glyphicon glyphicon-chevron-right customer"></i>
-
-          </div>
-          <div class="col-md-1 vl">
-
-
-          </div>
-          <div class="col-md-5">
-            <h4 class="act">About Menu</h4>
-            <p>We are menu a little team of 7 members</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
-            <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
-            <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="img/drink1.jpg" alt="#" />
+            <img src="img/drink2.jpg" alt="#" />
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row" id="sub">
-    <div class=col-md-12>
-      <div id="pulldown">
-        <h2>Get our daily food items delivered to your email</h2>
-        <div id="log">
-          <form>
-            <div class="form-group">
-              <input id="subinput" type="email" placeholder="Your email">
-              <button id="subbutton" class="btn" type="submit">Subscribe</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div id="info">
-        <p>You are have been succesfully added to our email list</p>
-        <p>Email: <span class="email1"></span></p>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="row" id="foot">
-    <div class="col-md-12">
+    <div class="row" id="fastfood">
       <div class="container">
-        <div class="row" id="footertop">
-          <div class="col-md-6">
-            <img align="right" src="img/footerlogos/logo_white.png" alt="Menus">
+
+
+        <ul class="nav nav-tabs nav-justified" id="nav">
+          <li role="presentation" class="active"><a href="#"><span class="act">Fast Food</span></a></li>
+          <li role="presentation" class="inactive"><a href="#"><span class="inact">Drinks</span></a></li>
+          <li role="presentation" class="inactive"><a href="#"><span class="inact">Chicken</span></a></li>
+          <li role="presentation" class="inactive"><a href="#"><span class="inact">Rice</span></a></li>
+        </ul>
+
+        <div class="row light">
+          <div class="col-md-1">
+            <i class="glyphicon glyphicon-chevron-left colour"></i>
           </div>
-          <div class="col-md-6" id="men">
-            <h3>MENU</h3>
+          <div class="col-md-3">
+            <img class="move" src="img/fastfood/chickenBurger.jpg" alt="#" />
+            <p><strong>Chicken Burger</strong></p>
           </div>
+          <div class="col-md-3">
+            <img src="img/fastfood/beefBurger.jpg" class="fast2" alt="#" />
+            <p class="fast2"><strong>Beef Burger</strong></p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/fastfood/chickenPizza.jpg" class="fast1" alt="#" />
+            <p class="fast1"><strong>Chicken Pizza</strong></p>
+          </div>
+          <div class="col-md-1">
+            <i class="glyphicon glyphicon-chevron-right colour" id="mov"></i>
+          </div>
+
         </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <p>Thats What We Are</p>
-          </div>
-        </div>
+      </div>
+    </div>
+    <div class="container" id="outer">
+      <div class="well" id="cus">
+        <div class="customers">
+          <div class="row">
+            <div class="col-md-6">
+              <h4 class="act">Our Happy Customer</h4>
+              <h5>George Richard</h5>
+              <p>Great food! Menu is awesome,there foods are not only great but</p>
+              <p>also in the right price.I'll highly recommend them :)</p>
 
-        <div class="row">
-          <div class="col-md-12">
-            <img src="img/footerlogos/facebook.png" alt="Facebook">
-            <img src="img/footerlogos/twitter.png" alt="Twitter">
-            <img src="img/footerlogos/pinterest.png" alt="Pinterest">
-          </div>
-        </div>
+              <i class="glyphicon glyphicon-chevron-left customer"></i>
+              <img src="img/customers/p1.png" alt="Customer one" />
+              <img src="img/customers/p2.png" alt="George Richard" />
+              <img src="img/customers/p3.png" alt="Customer 3" />
+              <i class="glyphicon glyphicon-chevron-right customer"></i>
 
-        <div class="row">
-          <div class="col-md-12" style="padding-top:80px;">
-            <p>2016 Menu Restraunt</p>
+            </div>
+            <div class="col-md-1 vl">
+
+
+            </div>
+            <div class="col-md-5">
+              <h4 class="act">About Menu</h4>
+              <p>We are menu a little team of 7 members</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
+              <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
+              <p>Suspendisse dictum nisi eget placerat imperdiet.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <div class="row" id="sub">
+      <div class=col-md-12>
+        <div id="pulldown">
+          <h2>Get our daily food items delivered to your email</h2>
+          <div id="log">
+            <form>
+              <div class="form-group">
+                <input id="subinput" type="email" placeholder="Your email">
+                <button id="subbutton" class="btn" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="info">
+          <p>You are have been succesfully added to our email list</p>
+          <p>Email: <span class="email1"></span></p>
+        </div>
+      </div>
+    </div>
 
 
 
-</body>
+    <div class="row" id="foot">
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row" id="footertop">
+            <div class="col-md-6">
+              <img align="right" src="img/footerlogos/logo_white.png" alt="Menus">
+            </div>
+            <div class="col-md-6" id="men">
+              <h3>MENU</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p>Thats What We Are</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <img src="img/footerlogos/facebook.png" alt="Facebook">
+              <img src="img/footerlogos/twitter.png" alt="Twitter">
+              <img src="img/footerlogos/pinterest.png" alt="Pinterest">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12" style="padding-top:80px;">
+              <p>2016 Menu Restraunt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
 
 </html>
